@@ -48,4 +48,8 @@ def simulated_annealing(ruta, coord):
 
         T = T - 0.005
 
-return ruta
+    return ruta
+
+@app.route('/')
+def tsp():
+
