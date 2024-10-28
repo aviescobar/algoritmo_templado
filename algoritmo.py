@@ -6,3 +6,4 @@ app = Flask(__name__)
 
 def distancia(coord1, coord2):
     lat1 = coord1[0]
+    lon1 = coord1[1]
