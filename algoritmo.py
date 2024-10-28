@@ -22,3 +22,5 @@ def evalua_ruta(ruta, coord):
     ciudad2 = ruta[0]
     total = total + distancia(coord[ciudad1], coord[ciudad2])
     return total
+
+def simulated_annealing(ruta, coord):
