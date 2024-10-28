@@ -54,4 +54,6 @@ def simulated_annealing(ruta, coord):
 def tsp():
     coord = {
         'Jiloyork' :(19.916012, -99.580580),
+        'Toluca':(19.289165, -99.655697),
+        'Atlacomulco':(19.799520, -99.873844),
 
