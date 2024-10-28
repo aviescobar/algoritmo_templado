@@ -25,3 +25,4 @@ def evalua_ruta(ruta, coord):
 
 def simulated_annealing(ruta, coord):
     T = 20
+    T_MIN = 0
