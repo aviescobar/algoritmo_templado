@@ -19,3 +19,4 @@ def evalua_ruta(ruta, coord):
         total = total + distancia(coord[ciudad1], coord[ciudad2])
 
     ciudad1 = ruta[-1]
+    ciudad2 = ruta[0]
