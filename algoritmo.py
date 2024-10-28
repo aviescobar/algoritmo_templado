@@ -35,3 +35,4 @@ def simulated_annealing(ruta, coord):
             j = random.randint(0, len(ruta)-1)
             ruta_tmp = ruta[:]
             ciudad_tmp = ruta_tmp[i]
+            ruta_tmp[i] = ruta_tmp[j]
