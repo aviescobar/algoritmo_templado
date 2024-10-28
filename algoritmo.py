@@ -37,3 +37,4 @@ def simulated_annealing(ruta, coord):
             ciudad_tmp = ruta_tmp[i]
             ruta_tmp[i] = ruta_tmp[j]
             ruta_tmp[j] = ciudad_tmp
+            dist = evalua_ruta(ruta_tmp, coord)
