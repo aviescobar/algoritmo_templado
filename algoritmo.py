@@ -32,3 +32,4 @@ def simulated_annealing(ruta, coord):
         dist_actual = evalua_ruta(ruta, coord)
         for _ in range(1, V_enfriamiento):
             i = random.randint(0, len(ruta)-1)
+            j = random.randint(0, len(ruta)-1)
