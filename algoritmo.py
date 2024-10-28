@@ -53,4 +53,5 @@ def simulated_annealing(ruta, coord):
 @app.route('/')
 def tsp():
     coord = {
+        'Jiloyork' :(19.916012, -99.580580),
 
