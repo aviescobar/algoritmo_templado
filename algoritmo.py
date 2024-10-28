@@ -29,3 +29,4 @@ def simulated_annealing(ruta, coord):
     V_enfriamiento = 100
 
     while T > T_MIN:
+        dist_actual = evalua_ruta(ruta, coord)
