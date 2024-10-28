@@ -27,3 +27,5 @@ def simulated_annealing(ruta, coord):
     T = 20
     T_MIN = 0
     V_enfriamiento = 100
+
+    while T > T_MIN:
