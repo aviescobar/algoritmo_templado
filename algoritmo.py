@@ -45,3 +45,5 @@ def simulated_annealing(ruta, coord):
             elif random.random() < math.exp(delta/T):
                 ruta = ruta_tmp[:]
                 break
+
+    T = T - 0.005
