@@ -24,3 +24,4 @@ def evalua_ruta(ruta, coord):
     return total
 
 def simulated_annealing(ruta, coord):
+    T = 20
