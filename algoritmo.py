@@ -14,3 +14,4 @@ def distancia(coord1, coord2):
 def evalua_ruta(ruta, coord):
     total = 0
     for i in range(0, len(ruta)-1):
+        ciudad1 = ruta[i]
