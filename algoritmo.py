@@ -46,4 +46,6 @@ def simulated_annealing(ruta, coord):
                 ruta = ruta_tmp[:]
                 break
 
-    T = T - 0.005
+        T = T - 0.005
+
+return ruta
