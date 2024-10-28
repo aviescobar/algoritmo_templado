@@ -40,3 +40,4 @@ def simulated_annealing(ruta, coord):
             dist = evalua_ruta(ruta_tmp, coord)
             delta = dist_actual - dist
             if(dist < dist_actual):
+                ruta = ruta_tmp[:]
